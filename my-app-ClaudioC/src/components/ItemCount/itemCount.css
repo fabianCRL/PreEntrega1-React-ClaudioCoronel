@@ -1,0 +1,36 @@
+.btnCarrito{
+    justify-content: center;
+    padding: 5px;
+    width: 8rem;
+    height: 2rem;
+    display: flex;
+    border-radius: 30px;
+    border: 3px solid;   
+    border-color: blueviolet;
+}
+
+.btnCarrito:hover{
+    border-color: greenyellow;
+    background-color: darkgray;
+    cursor: pointer;
+}
+
+.Controls{
+    display: flex;
+    justify-content: center;
+}
+
+.Counter{
+    text-align: center;
+}
+
+.Number{
+    padding: 15px;
+    background-color: black;
+    border-radius: 25px;
+}
+
+.divBtnCarrito{
+    display: flex;
+    justify-content: center;
+}

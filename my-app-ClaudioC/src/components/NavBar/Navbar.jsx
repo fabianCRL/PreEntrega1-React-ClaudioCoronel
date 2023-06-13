@@ -3,12 +3,12 @@ import CartWidget from "../CartWidget/CartWidget";
 const Navbar = () => {
     return (
         <header>
-            <h1>HardCBA-Store</h1>
+            <h1 className="titulo1">HardCBA-Store</h1>
 
             <nav>
                 <ul>
                     <li><a href="/">Home</a></li>
-                    <li><a href="/productos">Productos</a></li>
+                    <li><a href="/categorias">Categorias</a></li>
                     <li><a href="/contacto">Carrito</a></li>
                 </ul>
                 <CartWidget/>
